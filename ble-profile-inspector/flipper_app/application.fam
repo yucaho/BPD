@@ -1,0 +1,10 @@
+App(
+    appid="ble_profile_inspector",
+    name="BLE Profile Inspector",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="ble_profile_inspector_app",
+    cdefines=["APP_BLE_PROFILE_INSPECTOR"],
+    requires=["gui"],
+    stack_size=2 * 1024,
+    order=20,
+)

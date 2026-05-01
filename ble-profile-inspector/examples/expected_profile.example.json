@@ -1,0 +1,20 @@
+{
+  "profile_name": "QA Temp Sensor RevA",
+  "match": {
+    "name_contains": "Temp",
+    "address_contains": "",
+    "required_any_service_uuid": ["1809"],
+    "manufacturer_id": "0x004c"
+  },
+  "expected": {
+    "required_service_uuids": ["1809", "180f"],
+    "forbidden_service_uuids": ["1812"],
+    "required_manufacturer_ids": ["0x004c"],
+    "required_service_data_uuids": ["1809"],
+    "min_rssi": -90,
+    "max_rssi": -5,
+    "required_name_prefix": "Temp",
+    "required_name_contains": "Sensor"
+  },
+  "notes": "Owned lab device for consent-based QA debugging."
+}
