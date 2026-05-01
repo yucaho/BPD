@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ble-profile-inspector"
+version = "0.1.0"
+description = "Passive BLE advertisement/profile inspector for QA"
+requires-python = ">=3.10"
+dependencies = ["bleak>=0.22.0"]
+
+[project.scripts]
+ble-profile-inspector = "ble_profile_inspector.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
