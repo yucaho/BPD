@@ -1,0 +1,23 @@
+{
+  "tool_version": "0.1.0",
+  "created_at": "2026-05-01T00:00:00+00:00",
+  "scan_duration_seconds": 20,
+  "device_count": 1,
+  "devices": [
+    {
+      "address": "AA:BB:CC:DD:EE:FF",
+      "address_type": "public",
+      "device_name": "TempSensor-A",
+      "local_name": "TempSensor-A",
+      "rssi": -55,
+      "tx_power": -4,
+      "service_uuids": ["1809", "180f"],
+      "manufacturer_data": {"0x004c": "010203"},
+      "service_data": {"1809": "aa55"},
+      "platform_data": {"raw": "example"},
+      "first_seen": "2026-05-01T00:00:00+00:00",
+      "last_seen": "2026-05-01T00:00:10+00:00",
+      "seen_count": 5
+    }
+  ]
+}
